@@ -4,10 +4,11 @@
  .link-button{
      text-decoration: none;
      background-image: linear-gradient(45deg, lightsalmon,tomato);
-     padding: 5px 10px;
+     padding: 8px 10px;
      border-radius: 6px;
      color:white;
      font-weight: bold;
+     margin-top: 20%;
 
  }
 h1{
@@ -41,6 +42,7 @@ p{
     padding-right: 20px;
 }
 .first img{
+    margin-top: -85px;
     width: 95%;
 }
 #top-banner{
@@ -68,10 +70,12 @@ section{
     float: left;
 }
 .center{
+    margin-bottom:45px ;
     font-family: 'Oxygen', sans-serif;
     text-align: center;
 }
 #image1{
+    margin-top:65px ;
     width: 25%;
     float: left;
     padding:20px 0px 30px 80px;
@@ -80,6 +84,7 @@ section{
     margin-bottom: 0%;
 }
 #image2{
+    margin-top:65px ;
     width: 25%;
     padding:20px 0px 30px 0px;
     margin-left: 0;
@@ -88,6 +93,7 @@ section{
 
 }
 #image3{
+    margin-top:65px;
     width: 25%;
     padding:20px 30px 30px 0px ;
     margin-left: 0;
@@ -115,3 +121,41 @@ footer p{
     font-size: 15px;
     padding-left: 6%;
 }
+.experience-area{
+    background-image: url(personal-website/first.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 25%;
+    padding-left: 6%;
+    padding-bottom: 10%;
+    padding-top: 0%;
+}
+#full-stack{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px 10PX 10PX 10PX;
+    border-radius: 6px;
+    height: 80%;
+    overflow: hidden;
+}
+.lastline{
+    padding-top: 120px;
+}
+.link-button:hover{
+    font-size: 23px;
+ 
+ }
+ .background-color:hover{
+    font-size: 23px;
+    background-size: 23px;
+
+ }
